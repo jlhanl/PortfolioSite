@@ -1,17 +1,29 @@
 .top-bar {
-  background color: rgba(68, 68, 68, 0.6);
+  background color: rgba(68, 68, 68, 0.5);
   font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
+.top-bar-section ul li > a {
+  font-family: 'Montserrat';
+}
+
+.top-bar-section ul li > a.button {
+  background-color: #86A253;
+}
+
+.top-bar-section .right .has-form a {
+  padding-bottom: 2px;
+}
+
 h1 {
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: 'Montserrat';
   font-weight: 400;
   color: #FFFFFF;
 }
 
 h2 {
   font-family: 'Playfair Display', Times, serif;
-  font-size: 30px;
+  font-size: 28px;
   color: #FFFFFF;
 }
 
@@ -35,6 +47,10 @@ header {
   text-align: center;
 }
 
-#hero {
-  margin-top: 15%;
+.headline {
+  padding-top: 27%;
+}
+
+#featured {
+  text-align: center;
 }

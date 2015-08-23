@@ -1,13 +1,40 @@
 .top-bar {
-  background: #86A253;
+  background color: rgba(68, 68, 68, 0.6);
+  font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 h1 {
   font-family: 'Montserrat', Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 400;
+  color: #FFFFFF;
 }
 
 h2 {
   font-family: 'Playfair Display', Times, serif;
   font-size: 30px;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  color: #444444;
+}
+
+p {
+  font-family: 'Playfair Display', Times, serif;
+}
+
+header {
+  background: url('../images/hero-image.png');
+  min-height: 600px;
+  background-size: cover;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+#hero {
+  margin-top: 15%;
 }

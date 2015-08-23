@@ -22,43 +22,46 @@
   <body>
 
 <!-- Header -->
-    <div class="contain-to-grid sticky">
-      <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: [ small, medium, large]">
-        <ul class="title-area">
-          <li class="name">
-            <h1><a href="#"><img src="images/logo-icon.png" alt="Jenny Hanlon" /></a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-    
-        <section class="top-bar-section">
-          <!-- Right Nav Section -->
-          <ul class="right">
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li class="has-form"><a href="#" class="button">CONTACT</a>
+    <header>
+      <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: [ small, medium, large]">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#"><img src="images/logo-icon.png" alt="Jenny Hanlon" /></a></h1>
             </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
           </ul>
-        </section>
-      </nav>
-    </div>
+      
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li><a href="#">PROJECTS</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li class="has-form"><a href="#" class="button">CONTACT</a>
+              </li>
+            </ul>
+          </section>
+        </nav>
+      </div>
 
-  <!-- Hero Panel -->
-  <div class="row">
-    <div class="small-11 small-centered columns">
-      <h1>JENNY HANLON</h1>
-      <h2>UX/UI Designer</h2></div>
-    </div>
+      <!-- Hero Panel -->
+      <div id="hero" class="row">
+        <div class="small-11 small-centered columns">
+          <h1 class="center">JENNY HANLON</h1>
+          <h2 class="center">UX/UI Designer | Front-End Developer</h2>
+        </div>
+      </div>
+    </header>
 
-  <!-- Projects Header -->
-  <div class="row">
-    <div class="small-6 small-centered columns">FEATURED PROJECTS</div>
-  </div>
+    <!-- Projects Header -->
+    <div class="row">
+      <div class="small-6 small-centered columns">FEATURED PROJECTS</div>
+    </div>
 
   <!-- Projects -->
-  <div class="container">
+  <div id="project" class="container">
     <!-- Reflect -->
-    <div class="row">
+    <div id="reflect" class="row">
       <div class="small-11 small-centered medium-6 medium-uncentered large-6 large uncentered columns">
         <h3>REFLECT</h3>
         <p>Few things tug at our heartstrings more than a photograph. During my time as a portrait and wedding photographer, I noticed the need for a hub conecting professional photographers with charitable causes in need of a well-trained eye for imagery. I designed Reflect to fulfill that need.</p>
@@ -68,7 +71,7 @@
       </div>
     </div>
     <!-- Nomcents -->
-    <div class="row">
+    <div id="nomcents" class="row">
       <div class="small-11 small-centered medium-6 medium-uncentered large-6 large uncentered columns">
         <h3>NOMCENTS</h3>
         <p>The food truck industry has grown exponentially in the past several years, and its mobile nature presents unique needs for vendors and their customers. Nomcents fills those needs with a way to search local food trucks, view menus and reviews, select and order food, and complete payment, all from their iPhone.</p>
@@ -78,7 +81,7 @@
       </div>
     </div>  
     <!-- Blocbox -->
-    <div class="row">
+    <div id="blocbox" class="row">
       <div class="small-11 small-centered medium-6 medium-uncentered large-6 large uncentered columns">
         <h3>BLOCBOX</h3>
         <p>As a part of my Apprenticeship at Bloc, I designed Blocbox. Blocbox is a SaaS (Software as a Service) web application which allows people to collect information and store it in a single place. A person can create simple documents, store images, links to websites, and collaborate with others.</p>
@@ -87,6 +90,13 @@
         <img src="images/mac-blocbox.png" alt="BLOCBOX" />
       </div>
     </div>  
+  </div>
+  <!-- Call to Action -->
+  <div id="cta" class="row">
+    <div class="small-5 small-centered columns">
+      <h2>Let's get acquainted.</h2>
+      <a href="#" class="button large">Contact Me</a>
+    </div>
   </div>
     
   </body>

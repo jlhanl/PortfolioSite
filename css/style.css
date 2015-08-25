@@ -37,14 +37,17 @@ h1 {
 }
 
 h2 {
-  font-family: 'Playfair Display', Times, serif;
-  font-size: 28px;
+  font-family: 'Playfair Display', Helvetica, sans-serif;
   color: #FFFFFF;
 }
 
 h3 {
   font-family: 'Montserrathairline', Helvetica, sans-serif;
   color: #444444;
+}
+
+h4 {
+  font-family: 'Playfair Display', Helvetica, sans-serif;
 }
 
 h6#copyright {
@@ -142,13 +145,17 @@ ul#social li {
   opacity: 0.6;
 }
 
+#copyright {
+  text-align: right;
+}
+
 
 /********* ABOUT PAGE **********/
 
 #abouthero {
   background-image: none;
   background-color: #86A253;
-  min-height: 200px;
+  min-height: 175px;
 }
 
 .about {
@@ -184,15 +191,16 @@ ul#social li {
   width: auto;
   max-width: 250px;
   max-height: 250px;
-  display: inline-block;
-  margin-top: -125px;
+  margin-top: -150px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-h1#title {
+h3#title {
   text-align: center;
-  font-family: 'Montserrathairline';
-  font-size: 36px;
   color: #444444;
+  margin-top: 20px;
 }
 
 #bio {
@@ -205,4 +213,26 @@ p#bio {
 
 .bio-button {
   text-align: center;
+}
+
+/************** CONTACT PAGE *************/
+
+#contacthero {
+  text-align: center;
+}
+
+#contact-title {
+  margin-top: 75px;
+}
+#contact {
+  background-color: #C1D7A0;
+  min-height: 300px;
+}
+
+#submit {
+  text-align: center;
+}
+
+form {
+  padding-top: 30px;
 }

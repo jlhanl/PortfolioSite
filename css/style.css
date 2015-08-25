@@ -4,6 +4,7 @@
 
 .title-area {
   padding-bottom: 2px;
+  text-align: left;
 }
 
 .top-bar {
@@ -46,9 +47,10 @@ h3 {
   color: #444444;
 }
 
-h6 {
+h6#copyright {
   font-family: 'Montserrathairline';
   color: #FFFFFF;
+  font-size: 12px;
 }
 
 p {
@@ -56,7 +58,7 @@ p {
 }
 
 header {
-  background: url('../images/hero-image1.png');
+  background-image: url('../images/hero-image1.png');
   min-height: 600px;
   background-size: cover;
   width: 100%;
@@ -117,21 +119,90 @@ header {
 
 #footer {
   background-color: #444444;
-  color: #E5E5E5;
+  color: rgba(255, 255, 255, 0.6);
   font-family: 'Montserratlight';
+  margin-top: 50px;
 }
 
 h6 {
-  padding-top: 15px;
+  padding-top: 20px;
+  font-size: 16px;
+  text-align: center;
 }
 
 ul#social {
   list-style-type: none;
-  text-align: right;
-  padding-top: 15px;
+  text-align: center;
+  padding-top: 17px;
 }
 
 ul#social li {
   display: inline-block;
   margin-right: 20px;
+  opacity: 0.6;
+}
+
+
+/********* ABOUT PAGE **********/
+
+#abouthero {
+  background-image: none;
+  background-color: #86A253;
+  min-height: 200px;
+}
+
+.about {
+  background-image: none;
+  min-height: 200px;
+}
+
+/********
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  overflow: hidden;
+  border: 3px solid #FFFFFF;
+}
+
+.pic {
+  background: url(../images/me-photo.jpg);
+  width: 150px;
+  height: 150px;
+  margin: -25px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}********/
+
+.photo {
+  content: url('../images/bio.png');
+  height: auto;
+  width: auto;
+  max-width: 250px;
+  max-height: 250px;
+  display: inline-block;
+  margin-top: -125px;
+}
+
+h1#title {
+  text-align: center;
+  font-family: 'Montserrathairline';
+  font-size: 36px;
+  color: #444444;
+}
+
+#bio {
+  margin-top: 20px;
+}
+
+p#bio {
+  font-size: 28px;
+}
+
+.bio-button {
+  text-align: center;
 }

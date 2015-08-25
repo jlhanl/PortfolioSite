@@ -21,13 +21,20 @@
   background-color: #A59F93;
 }
 
-.top-bar-section ul li > a.button {
-  border: 2px solid #FFFFFF;
-  background: #A59F93;
+.top-bar-section ul.right {
+  padding-bottom: 2px;
 }
 
 .top-bar-section .right .has-form a {
   color: #FFFFFF;
+}
+
+.top-bar-section ul li.active > a {
+  background-color: #86A253;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background-color: #86A253;
 }
 
 h1 {
@@ -37,17 +44,17 @@ h1 {
 }
 
 h2 {
-  font-family: 'Playfair Display', Helvetica, sans-serif;
+  font-family: 'chaparral-pro', sans-serif;
   color: #FFFFFF;
 }
 
 h3 {
-  font-family: 'Montserrathairline', Helvetica, sans-serif;
+  font-family: 'Montserrathairline', sans-serif;
   color: #444444;
 }
 
 h4 {
-  font-family: 'Playfair Display', Helvetica, sans-serif;
+  font-family: 'chaparral-pro', sans-serif;
 }
 
 h6#copyright {
@@ -57,7 +64,7 @@ h6#copyright {
 }
 
 p {
-  font-family: 'Playfair Display', Times, serif;
+  font-family: 'chaparral-pro', sans-serif;
 }
 
 header {
@@ -121,7 +128,7 @@ header {
 }
 
 #footer {
-  background-color: rgba(68, 68, 68, 0.5);
+  background-color: #444444;
   color: rgba(255, 255, 255, 0.6);
   font-family: 'Montserratlight';
   margin-top: 50px;
@@ -205,10 +212,17 @@ h3#title {
 
 #bio {
   margin-top: 20px;
+  font-size: 20px;
 }
 
 p#bio {
   font-size: 28px;
+}
+
+span {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
 }
 
 .bio-button {

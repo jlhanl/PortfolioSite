@@ -313,3 +313,43 @@ img#reflect-landing {
 .summary, .research {
   padding-top: 30px;
 }
+
+/************** BLOCBOX ****************/
+
+#blocproto {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#blocidentity {
+  background-color: rgba(165, 163, 158, 0.6);
+  min-height: 700px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#blocstyleguide {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.blocmap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#blocsitemap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.proto {
+  background-color: rgba(165, 163, 158, 0.6);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#case-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

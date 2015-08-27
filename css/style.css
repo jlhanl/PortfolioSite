@@ -291,18 +291,31 @@ img#reflect-landing {
   padding-bottom: 30px;
 }
 
+.case-study {
+  box-shadow: 1px 2px 3px rgba(68, 68, 68, 0.4);
+}
 .case-study h3 {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.case-study h4 {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .case-study p {
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-#color-panel2 {
-  background-color: rgba(165, 163, 158, 0.6);
-  min-height: 350px;
+.case-study img {
+  box-shadow: 1px 2px 3px 1px rgba(68, 68, 68, 0.2);
+  margin-bottom: 40px;
+}
+
+#color-panel {
+  background-color: #E5E5E5;
+  height: 100%;
 }
 
 #survey {
@@ -313,6 +326,13 @@ img#reflect-landing {
   padding-top: 30px;
 }
 
+img#userstories {
+  box-shadow: none;
+}
+
+img#wireframes {
+  box-shadow: none;
+}
 /************** BLOCBOX ****************/
 
 #blocproto {
@@ -348,7 +368,8 @@ img#reflect-landing {
   padding-bottom: 30px;
 }
 
-#case-title {
-  padding-top: 30px;
-  padding-bottom: 30px;
+/************* NOMCENTS ****************/
+
+#nomwireframes {
+  box-shadow: none;
 }

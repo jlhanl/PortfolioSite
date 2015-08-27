@@ -49,7 +49,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserratlight', sans-serif;
+  font-family: 'Montserrathairline', sans-serif;
   color: #FFFFFF;
 }
 
@@ -70,6 +70,7 @@ h3#description {
 
 p {
   font-family: 'chaparral-pro', sans-serif;
+  font-size: 20px;
 }
 
 header {
@@ -268,7 +269,9 @@ form {
 
 /*************** REFLECT ***************/
 
-#reflect-hero {
+#projecthero {
+  background-color: #86A253;
+  min-height: 350px;
 }
 
 .title p {
@@ -278,8 +281,8 @@ form {
 
 img#reflect-landing {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .case-study h3 {
@@ -291,9 +294,9 @@ img#reflect-landing {
   padding-top: 20px;
 }
 
-#color-panel {
+#color-panel2 {
   background-color: rgba(165, 163, 158, 0.6);
-  min-height: 400px;
+  min-height: 350px;
 }
 
 #survey {

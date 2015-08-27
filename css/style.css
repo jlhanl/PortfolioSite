@@ -282,7 +282,7 @@ img#reflect-landing {
   padding-bottom: 50px;
 }
 
-.case-study h4 {
+.case-study h3 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -292,7 +292,7 @@ img#reflect-landing {
 }
 
 #color-panel {
-  background-color: #A5A39E;
+  background-color: rgba(165, 163, 158, 0.6);
   min-height: 400px;
 }
 

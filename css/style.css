@@ -50,7 +50,8 @@ h2 {
 
 h3 {
   font-family: 'Montserrathairline', sans-serif;
-  color: #FFFFFF;
+  color: #444444;
+  font-size: 2.5em;
 }
 
 h4 {
@@ -167,13 +168,12 @@ ul#social li {
   text-align: right;
 }
 
-
 /********* ABOUT PAGE **********/
 
 .about-hero {
   background-image: none;
   background-color: #C1D7A0;
-  min-height: 235px;
+  min-height: 250px;
 }
 
 .about {
@@ -211,18 +211,28 @@ ul#social li {
   max-height: 250px;
   margin-top: -125px;
   text-align: center;
-  margin-right: auto;
+  margin-right: 0;
   margin-left: auto;
 }
 
+.titletop {
+  padding-left: 0;
+}
+
 .title h3 {
-  text-align: center;
-  color: #FFFFFF;
-  margin-top: 20%;
+  font-size: 3rem;
+  text-align: left;
+  margin-top: -120px;
+  padding-left: 0;
+  line-height: 55px;
+}
+
+.bioimg {
+  padding-right: 0;
 }
 
 #bio {
-  margin-top: 20px;
+  margin-top: -70px;
   font-size: 20px;
 }
 
@@ -233,13 +243,20 @@ p#bio {
 span {
   text-align: center;
   font-style: italic;
-  font-size: 20px;
+  font-size: 24px; 
 }
 
 .bio-button {
   text-align: center;
 }
 
+.home {
+  font-size: 1.6875rem;
+}
+
+.homesummary {
+  margin-top: -35px;
+}
 /************** CONTACT PAGE *************/
 
 #contacthero {
@@ -372,4 +389,10 @@ img#wireframes {
 
 #nomwireframes {
   box-shadow: none;
+}
+
+/************* MEDIA QUERIES *************/
+
+@media only screen and (max-width: 40rem) {
+
 }

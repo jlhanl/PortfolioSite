@@ -1,0 +1,398 @@
+.contain-to-grid {
+  background-color: rgba(68, 68, 68, 0.9);
+}
+
+.title-area {
+  padding-bottom: 2px;
+  text-align: left;
+}
+
+.top-bar {
+  font-family: 'Montserratlight', Helvetica, sans-serif;
+  background-color: transparent;
+}
+
+.top-bar-section ul li {
+  background: transparent;
+}
+
+.top-bar-section ul li > a {
+  font-family: 'Montserratlight';
+  background-color: #A59F93;
+}
+
+.top-bar-section ul.right {
+  padding-bottom: 2px;
+}
+
+.top-bar-section .right .has-form a {
+  color: #FFFFFF;
+}
+
+.top-bar-section ul li.active > a {
+  background-color: rgba(68, 68, 68, 0.2);
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background-color: rgba(68, 68, 68, 0.2);
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: 'chaparral-pro', sans-serif;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: 'Montserrathairline', sans-serif;
+  color: #444444;
+  font-size: 2.5em;
+}
+
+h4 {
+  font-family: 'chaparral-pro', sans-serif;
+  color: #444444;
+}
+
+h5 {
+  font-family: 'chaparral-pro', sans-serif;
+  font-weight: 600;
+}
+
+h6#copyright {
+  font-family: 'Montserrathairline';
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+h3#description {
+  color: #444444;
+}
+
+p {
+  font-family: 'chaparral-pro', sans-serif;
+  font-size: 20px;
+}
+
+header {
+  background-image: url('../images/hero-image1.png');
+  min-height: 600px;
+  background-size: cover;
+  width: 100%;
+}
+
+.headline {
+  text-align: center;
+  padding-top: 25%;
+}
+
+.button {
+  font-family: 'Montserratlight';
+  color: #FFFFFF;
+  background-color: #5F743A;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 2px 2px rgba(68, 68, 68, 0.2);
+  margin-top: 1.5rem;
+}
+
+#featured {
+  text-align: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.portfolio {
+  padding: 6rem 0rem;
+  text-align: center;
+}
+
+#description {
+  padding-top: 3rem;
+}
+
+.reflect, .blocbox {
+  color: #FFFFFF;
+  background-color: #A5A39E;
+}
+
+.reflect h3, .blocbox h3 {
+  color: #FFFFFF;
+}
+
+.button.small {
+  margin-top: 0.4rem;
+}
+
+#cta {
+  padding: 4rem 0rem;
+  text-align: center;
+  color: #444444;
+}
+
+#cta h2 {
+  color: #444444;
+}
+
+#footer {
+  background-color: #444444;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Montserratlight';
+  margin-top: 50px;
+}
+
+h6 {
+  padding-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+ul#social {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 17px;
+}
+
+ul#social li {
+  display: inline-block;
+  margin-right: 20px;
+  opacity: 0.6;
+}
+
+#copyright {
+  text-align: right;
+}
+
+/********* ABOUT PAGE **********/
+
+.about-hero {
+  background-image: none;
+  background-color: #C1D7A0;
+  min-height: 250px;
+}
+
+.about {
+  background-image: none;
+  min-height: 200px;
+}
+
+/********
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  overflow: hidden;
+  border: 3px solid #FFFFFF;
+}
+
+.pic {
+  background: url(../images/me-photo.jpg);
+  width: 150px;
+  height: 150px;
+  margin: -25px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}********/
+
+.photo {
+  content: url('../images/bio.png');
+  height: auto;
+  width: auto;
+  max-width: 250px;
+  max-height: 250px;
+  margin-top: -125px;
+  text-align: center;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.titletop {
+  padding-left: 0;
+}
+
+.title h3 {
+  font-size: 3rem;
+  text-align: left;
+  margin-top: -120px;
+  padding-left: 0;
+  line-height: 55px;
+}
+
+.bioimg {
+  padding-right: 0;
+}
+
+#bio {
+  margin-top: -70px;
+  font-size: 20px;
+}
+
+p#bio {
+  font-size: 28px;
+}
+
+span {
+  text-align: center;
+  font-style: italic;
+  font-size: 24px; 
+}
+
+.bio-button {
+  text-align: center;
+}
+
+.home {
+  font-size: 1.6875rem;
+}
+
+.homesummary {
+  margin-top: -35px;
+}
+/************** CONTACT PAGE *************/
+
+#contacthero {
+  text-align: center;
+  color: #444444;
+}
+
+#contact-title {
+  margin-top: 75px;
+}
+
+h3#black {
+  color: #444444;
+}
+
+#contact {
+  background-color: #C1D7A0;
+  min-height: 300px;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+#submit {
+  text-align: center;
+}
+
+form {
+  padding-top: 30px;
+}
+
+/*************** REFLECT ***************/
+
+#projecthero {
+  min-height: 350px;
+  margin-top: -20px;
+  box-shadow: 1px 2px 3px rgba(68, 68, 68, 0.4);
+}
+
+.title p {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+img#reflect-landing {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.case-study {
+  box-shadow: 1px 2px 3px rgba(68, 68, 68, 0.4);
+}
+.case-study h3 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.case-study h4 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.case-study p {
+  padding-bottom: 20px;
+}
+
+.case-study img {
+  box-shadow: 1px 2px 3px 1px rgba(68, 68, 68, 0.2);
+  margin-bottom: 40px;
+}
+
+#color-panel {
+  background-color: #E5E5E5;
+  height: 100%;
+}
+
+#survey {
+  width: 130%;
+}
+
+.summary, .research {
+  padding-top: 30px;
+}
+
+img#userstories {
+  box-shadow: none;
+}
+
+img#wireframes {
+  box-shadow: none;
+}
+/************** BLOCBOX ****************/
+
+#blocproto {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#blocidentity {
+  background-color: rgba(165, 163, 158, 0.6);
+  min-height: 700px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#blocstyleguide {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.blocmap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#blocsitemap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.proto {
+  background-color: rgba(165, 163, 158, 0.6);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/************* NOMCENTS ****************/
+
+#nomwireframes {
+  box-shadow: none;
+}
+
+/************* MEDIA QUERIES *************/
+
+@media only screen and (max-width: 40rem) {
+
+}

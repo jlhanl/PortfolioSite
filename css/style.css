@@ -1,3 +1,11 @@
+.wf-loading h2 {
+  font-family: "chaparral-pro";
+  visibility: hidden;
+}
+
+.wf-active h2 {
+  visibility: visible;
+}
 .contain-to-grid {
   background-color: rgba(68, 68, 68, 0.9);
 }
@@ -80,7 +88,7 @@ p {
 }
 
 header {
-  background-image: url('../images/hero-image1.png');
+  background-image: url('../images/hero-image.jpg');
   min-height: 600px;
   background-size: cover;
   width: 100%;

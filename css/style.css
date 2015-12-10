@@ -1,3 +1,16 @@
+.wf-loading h2, .wf-loading p  {
+  font-family: "chaparral-pro";
+  visibility: hidden;
+}
+
+.wf-active h2, .wf-loading p {
+  visibility: visible;
+}
+
+body {
+  color: #777;
+}
+
 .contain-to-grid {
   background-color: rgba(68, 68, 68, 0.9);
 }
@@ -49,14 +62,15 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrathairline', sans-serif;
-  color: #444444;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #777
   font-size: 2.5em;
 }
 
 h4 {
   font-family: 'chaparral-pro', sans-serif;
-  color: #444444;
+  color: #777;
 }
 
 h5 {
@@ -71,7 +85,7 @@ h6#copyright {
 }
 
 h3#description {
-  color: #444444;
+  color: #777;
 }
 
 p {
@@ -80,7 +94,7 @@ p {
 }
 
 header {
-  background-image: url('../images/hero-image1.png');
+  background-image: url('/images/hero-image.jpg');
   min-height: 600px;
   background-size: cover;
   width: 100%;
@@ -118,7 +132,7 @@ header {
 
 .reflect, .blocbox {
   color: #FFFFFF;
-  background-color: #A5A39E;
+  background-color: rgba(119, 119, 119, .5);
 }
 
 .reflect h3, .blocbox h3 {
@@ -132,17 +146,18 @@ header {
 #cta {
   padding: 4rem 0rem;
   text-align: center;
-  color: #444444;
+  color: #777;
 }
 
 #cta h2 {
-  color: #444444;
+  color: #777;
 }
 
 #footer {
-  background-color: #444444;
+  background-color: rgba(68, 68, 68, 0.9);
   color: rgba(255, 255, 255, 0.6);
   font-family: 'Montserratlight';
+  height: 67px;
 }
 
 h6 {
@@ -260,7 +275,7 @@ span {
 
 #contacthero {
   text-align: center;
-  color: #444444;
+  color: #777;
 }
 
 #contact-title {
@@ -268,7 +283,7 @@ span {
 }
 
 h3#black {
-  color: #444444;
+  color: #777;
 }
 
 #contact {

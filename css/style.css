@@ -6,6 +6,7 @@
 .wf-active h2 {
   visibility: visible;
 }
+
 .contain-to-grid {
   background-color: rgba(68, 68, 68, 0.9);
 }
@@ -88,7 +89,7 @@ p {
 }
 
 header {
-  background-image: url('../images/hero-image.jpg');
+  background-image: url('/images/hero-image.jpg');
   min-height: 600px;
   background-size: cover;
   width: 100%;

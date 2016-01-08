@@ -1,9 +1,9 @@
-.wf-loading h2, .wf-loading p  {
-  font-family: "chaparral-pro";
+.wf-loading h1 .wf-loading h2, .wf-loading p  {
+  font-family: "brandon-grotesque";
   visibility: hidden;
 }
 
-.wf-active h2, .wf-loading p {
+.wf-active h1 .wf-active h2, .wf-loading p {
   visibility: visible;
 }
 
@@ -13,6 +13,7 @@ body {
 
 .contain-to-grid {
   background-color: rgba(255, 255, 255, 0.9);
+  height: 45px;
 }
 
 .title-area {
@@ -21,17 +22,24 @@ body {
 }
 
 .top-bar {
-  font-family: 'Montserratlight', Helvetica, sans-serif;
+  font-family: 'brandon-grotesque', Helvetica, sans-serif;
   background-color: transparent;
 }
 
+.top-bar .name h1 a {
+  color: #777;
+}
+
+.top-bar .toggle-topbar.menu-icon a{
+  color: #777;
+}
 .top-bar-section ul li {
   background: transparent;
 }
 
 .top-bar-section ul li > a {
   color: #777; 
-  font-family: 'Montserratlight';
+  font-family: 'brandon-grotesque', Helvetica, sans-serif;
   background-color: #A59F93;
 }
 
@@ -52,38 +60,38 @@ body {
   background-color: rgba(68, 68, 68, 0.2);
 }
 
-
 h1 {
-  font-family: 'Montserrat';
-  font-weight: 400;
-  color: #777;
+  font-family: 'brandon-grotesque';
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #FFFFFF;
 }
 
 h2 {
-  font-family: 'chaparral-pro', serif;
-  color: #777;
+  font-family: 'brandon-grotesque', serif;
+  color: #FFFFFF;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'brandon-grotesque', sans-serif;
   font-weight: 300;
   color: #777;
   font-size: 2.5em;
 }
 
 h4 {
-  font-family: 'chaparral-pro', serif;
+  font-family: 'brandon-grotesque', serif;
   color: #777;
 }
 
 h5 {
-  font-family: 'chaparral-pro', serif;
+  font-family: 'brandon-grotesque', serif;
   font-weight: 600;
 }
 
 h6#copyright {
-  font-family: 'Montserratlight';
-  color: rgba(255, 255, 255, 0.8);
+  font-family: 'brandon-grotesque';
+  color: #777;
   font-size: 14px;
 }
 
@@ -92,30 +100,39 @@ h3#description {
 }
 
 p {
-  font-family: 'chaparral-pro', sans-serif;
+  font-family: 'brandon-grotesque', sans-serif;
   font-size: 20px;
 }
 
-header {
+.hero-panel {
   background-color: #FFFFFF;
-  min-height: 300px;
+  background-image: url('/images/hero-image.png');
+  height: 500px;
   background-size: cover;
   width: 100%;
 }
 
 .headline {
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15%;
   padding-bottom: 10%;
 }
 
 .button {
-  font-family: 'Montserratlight';
-  color: #FFFFFF;
-  background-color: #5F743A;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  margin-top: 1.5rem;
+  font-family: 'brandon-grotesque';
+  font-weight: 600;
+  background-color: #FFFFFF;
+  opacity: 0.9;
+  letter-spacing: 3px;
+  color: #777;
+  margin-top: 1.75rem;
   font-style: normal;
+}
+
+.button:hover {
+  color: #777;
+  background-color: #FFFFFF;
+  opacity: 1;
 }
 
 #featured {
@@ -135,38 +152,39 @@ header {
 }
 
 .reflect {
-  color: #FFFFFF;
-  background-color: #777;
+  background-color: #FFFFFF;
+  color: #777;
 }
 
 .blocbox {
-  color: #FFFFFF;
-  background-color: #777;
+  background-color: #FFFFFF;
+  color: #777;
 }
 
 .reflect h3, .blocbox h3 {
-  color: #FFFFFF;
+  color: #777;
 }
 
 .reflect a, .blocbox a {
   color: #FFFFFF;
-  font-style: italic;
-  font-family: 'chaparral-pro';
-  text-transform: lowercase;
+  font-family: 'brandon-grotesque';
+  text-transform: uppercase;
   font-size: 20px;
 }
 
 .nomcents a {
   color: #777;
-  font-style: italic;
-  font-family: 'chaparral-pro';
-  text-transform: lowercase;
+  font-family: 'brandon-grotesque';
+  text-transform: uppercase;
   font-size: 20px;
 }
 
 .button.small {
+  color: #FFFFFF;
   margin-top: 0.4rem;
+  background-color: #B5C064;
 }
+
 
 #cta {
   padding: 4rem 0rem;
@@ -179,10 +197,9 @@ header {
 }
 
 #footer {
-  background-color: rgba(68, 68, 68, 0.9);
-  color: rgba(255, 255, 255, 0.8);
-  font-family: 'Montserratlight';
-  font-weight: 600;
+  background-color: #FFFFFF;
+  color: #777;
+  font-family: 'brandon-grotesque';
   height: 67px;
 }
 
@@ -206,7 +223,6 @@ ul#social li {
 
 #copyright {
   text-align: right;
-  font-weight: 600;
 }
 
 /********* ABOUT PAGE **********/

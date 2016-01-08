@@ -30,9 +30,6 @@ body {
   color: #777;
 }
 
-.top-bar .toggle-topbar.menu-icon a{
-  color: #777;
-}
 .top-bar-section ul li {
   background: transparent;
 }
@@ -51,13 +48,21 @@ body {
   color: rgba(60, 74, 35, 1);
 }
 
+.top-bar-section .has-dropdown > a:after {
+  border-color: #777 transparent transparent transparent;
+}
+
 .top-bar-section ul li.active > a {
-  background-color: rgba(68, 68, 68, 0.2);
+  background-color: #FFFFFF;
   color: #777;
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   background-color: rgba(68, 68, 68, 0.2);
+}
+
+.top-bar .toggle-topbar.menu-icon a{
+  color: #777;
 }
 
 h1 {
@@ -106,7 +111,7 @@ p {
 
 .hero-panel {
   background-color: #FFFFFF;
-  background-image: url('/images/hero-image.png');
+  background-image: url('/images/hero-image1.png');
   height: 500px;
   background-size: cover;
   width: 100%;
@@ -144,7 +149,7 @@ p {
 
 .portfolio {
   padding: 6rem 0rem;
-  text-align: center;
+  text-align: center;;
 }
 
 #description {
@@ -172,6 +177,10 @@ p {
   font-size: 20px;
 }
 
+.nomcents {
+  background-color: rgba(119, 119, 119, 0.1);
+}
+
 .nomcents a {
   color: #777;
   font-family: 'brandon-grotesque';
@@ -192,12 +201,16 @@ p {
   color: #777;
 }
 
+.container#grey {
+  background-color: rgba(119, 119, 119, 0.1);
+}
+
 #cta h2 {
   color: #777;
 }
 
 #footer {
-  background-color: #FFFFFF;
+  background-color: rgba(119, 119, 119, 0.1);
   color: #777;
   font-family: 'brandon-grotesque';
   height: 67px;
@@ -205,14 +218,15 @@ p {
 
 h6 {
   padding-top: 20px;
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
 }
 
 ul#social {
   list-style-type: none;
-  text-align: center;
+  text-align: left;
   padding-top: 17px;
+  margin-left: 0;
 }
 
 ul#social li {
@@ -224,6 +238,7 @@ ul#social li {
 #copyright {
   text-align: right;
 }
+
 
 /********* ABOUT PAGE **********/
 

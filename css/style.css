@@ -1,9 +1,18 @@
-.wf-loading h1 .wf-loading h2, .wf-loading p  {
-  font-family: "brandon-grotesque";
+.wf-loading h1, 
+.wf-loading h2, 
+.wf-loading h4,
+.wf-loading p,
+.wf-loading.top-bar
+.wf-loading .button  {
   visibility: hidden;
 }
 
-.wf-active h1 .wf-active h2, .wf-loading p {
+.wf-active h1,
+.wf-active h2, 
+.wf-active h3,
+.wf-active p,
+.wf-active.top-bar
+.wf-active .button {
   visibility: visible;
 }
 
@@ -37,7 +46,7 @@ body {
 .top-bar-section ul li > a {
   color: #777; 
   font-family: 'brandon-grotesque', Helvetica, sans-serif;
-  background-color: #A59F93;
+  background-color: #FFFFFF;
 }
 
 .top-bar-section ul.right {
@@ -63,6 +72,14 @@ body {
 
 .top-bar .toggle-topbar.menu-icon a{
   color: #777;
+}
+
+.top-bar .toggle-topbar.menu-icon a span::after {
+  box-shadow: 0 0 0 1px #777, 0 7px 0 1px #777, 0 14px 0 1px #777;
+}
+
+.top-bar.expanded .title-area {
+  background: #FFFFFF;
 }
 
 h1 {

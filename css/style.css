@@ -138,12 +138,10 @@ p {
 }
 
 .hero-panel {
-  background-color: #FFFFFF;
   background-image: url('/images/hero-image1.png');
-  height: 500px;
   background-size: cover;
+  height: 500px;
   background-attachment: fixed;
-  width: 100%;
 }
 
 .headline {
@@ -520,6 +518,13 @@ img#wireframes {
 
   .home {
     padding: 2rem 0 1rem 0;
+  }
+
+  .hero-panel {
+    background-image: url('/images/hero-image1.png');
+    background-size: cover;
+    height: 500px;
+    background-attachment: scroll;
   }
 
   #description p {

@@ -299,7 +299,6 @@ ul#social li {
   background-attachment: fixed;
   opacity: 0.8;
   height: 20rem;
-  width: 100%;
 }
 
 .titletop {
@@ -539,6 +538,14 @@ img#wireframes {
     background: #FFFFFF;
   }
 
+  #photo {
+    background-image: url('../images/me-photo.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 0.8;
+    height: 20rem;
+  }
 }
 
 @media only screen and (min-width: 641px) {

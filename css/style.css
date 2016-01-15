@@ -2,7 +2,7 @@
 .wf-loading h2, 
 .wf-loading h4,
 .wf-loading p,
-.wf-loading.top-bar
+.wf-loading .top-bar,
 .wf-loading .button  {
   visibility: hidden;
 }
@@ -11,7 +11,7 @@
 .wf-active h2, 
 .wf-active h3,
 .wf-active p,
-.wf-active.top-bar
+.wf-active .top-bar,
 .wf-active .button {
   visibility: visible;
 }
@@ -74,12 +74,23 @@ body {
   color: #777;
 }
 
+/*** Dropdown arrow ***/
 .top-bar .toggle-topbar.menu-icon a span::after {
   box-shadow: 0 0 0 1px #777, 0 7px 0 1px #777, 0 14px 0 1px #777;
 }
 
 .top-bar.expanded .title-area {
   background: #FFFFFF;
+}
+
+/*** Dropdown Projects link when opened ***/
+.top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
+  color: #777;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.1);
+}
+
+.top-bar-section .dropdown li.parent-link a {
+  display: none;
 }
 
 h1 {
@@ -137,8 +148,8 @@ p {
 
 .headline {
   text-align: center;
-  padding-top: 15%;
-  padding-bottom: 10%;
+  padding-top: 7.3rem;
+  padding-bottom: 5%;
 }
 
 .button {
@@ -519,12 +530,20 @@ img#wireframes {
     text-align: center;
   }
 
+  .top-bar-section ul li {
+    background: #FFFFFF;
+  }
+
 }
 
 @media only screen and (min-width: 641px) {
 
   .phone-show {
     display: none;
+  }
+
+  #copyright {
+    text-align: center;
   }
 
 }

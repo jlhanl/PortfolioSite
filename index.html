@@ -63,19 +63,14 @@
         <div class="small-11 small-centered columns">
           <div class="headline">
             <h1>JENNY HANLON</h1>
-            <h2>UX/UI Design  |  Front-End  |  Photography</h2>
+            <h2 class="phone-hide">UX/UI Design  |  Front-End  |  Photography</h2>
+            <h2 class="phone-show">UX/UI Designer<br>Front-end Developer<br>Photographer</h2>
             <a href="contact.html" class="button">GET IN TOUCH</a>
           </div>
           <a name="projectscroll"></a>
         </div>
       </div>
     </div>
-
-    <!-- Projects Header
-    <div id="featured" class="container">
-      <h3 id="black" class="home">FEATURED PROJECTS</h3>
-    </div>  -->
-
   <!-- Projects -->
   <div class="reflect portfolio">
     <div id="reflect" class="row phone-show">
@@ -200,7 +195,12 @@
 
   <script>
       $(document).ready(function(){
-        $(document).foundation();
+        $(document).foundation({
+          topbar: {
+            custom_back_text: true,
+            back_text: 'PROJECTS'
+          }
+        });
       });
   </script>
       

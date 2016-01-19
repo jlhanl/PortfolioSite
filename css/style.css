@@ -435,7 +435,8 @@ img#reflect-landing {
 }
 
 .case-study h5 {
-  padding-bottom: 1.5rem;
+  padding-bottom: 2rem;
+  margin-top: 1.5rem;
 }
 
 .case-study p {
@@ -445,12 +446,13 @@ img#reflect-landing {
 .case-study img {
   box-shadow: 1px 2px 3px 1px rgba(68, 68, 68, 0.2);
   margin-bottom: 3rem;
+  margin-top: 1rem;
 }
 
 #color-panel {
   background-color: rgba(119, 119, 119, 0.1);
   height: 100%;
-  padding-bottom: 2.5rem;
+  padding-bottom: 20px;
 }
 
 #survey {

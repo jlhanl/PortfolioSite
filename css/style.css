@@ -356,7 +356,7 @@ span {
 #contacthero {
   text-align: center;
   color: #FFFFFF;
-  background-image: url('../images/hero-image1.png');
+  background-image: url('../images/hero-image1.png') no-repeat;
   opacity: 0.9;
   background-attachment: fixed;
 }
@@ -552,13 +552,13 @@ img#wireframes {
 /* Landscape iOS */
 
 @media only screen and (max-width: 736px) {
-.hero-panel {
+  .hero-panel {
     background-image: url('/images/hero-image1.png');
     background-size: cover;
     height: 500px;
     background-attachment: scroll;
   }
-#photo {
+  #photo {
     background-image: url('../images/me-photo.jpg');
     background-position: center center;
     background-size: cover;
@@ -577,5 +577,12 @@ img#wireframes {
 
   #copyright {
     text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1275px) {
+
+  #photo {
+    height: 30rem;
   }
 }

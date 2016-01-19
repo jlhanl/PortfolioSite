@@ -434,6 +434,10 @@ img#reflect-landing {
   padding-bottom: 20px;
 }
 
+.case-study h5 {
+  padding-bottom: 1.5rem;
+}
+
 .case-study p {
   padding-bottom: 20px;
 }
@@ -460,6 +464,7 @@ img#reflect-landing {
 img#userstories {
   box-shadow: none;
   margin-bottom: 3.5rem;
+  margin-top: 3.5rem;
 }
 
 img#wireframes {

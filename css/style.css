@@ -356,7 +356,7 @@ span {
 #contacthero {
   text-align: center;
   color: #FFFFFF;
-  background-image: url('../images/hero-image1.png') no-repeat;
+  background-image: url('../images/hero-image1.png');
   opacity: 0.9;
   background-attachment: fixed;
 }

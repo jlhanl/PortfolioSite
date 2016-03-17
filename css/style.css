@@ -135,6 +135,10 @@ h3#description {
   color: #777;
 }
 
+#tagline {
+  color: #FFFFFF;
+}
+
 p {
   font-family: 'brandon-grotesque', sans-serif;
   font-size: 20px;
@@ -263,6 +267,10 @@ ul#social li {
   display: inline-block;
   margin-right: 20px;
   opacity: 0.6;
+}
+
+#twitter {
+  height: 1.25rem;
 }
 
 #copyright {

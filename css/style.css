@@ -559,6 +559,10 @@ h6#caption {
     padding: 2rem 0 1rem 0;
   }
 
+  .headline {
+    padding-top: 5.5rem;
+  }
+
   
   #description p {
     padding-bottom: 2rem;

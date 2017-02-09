@@ -546,6 +546,17 @@ h6#caption {
   padding-bottom: 3rem;
 }
 
+/********** OLIVERS APPAREL **************/
+
+.captioned img {
+  margin-bottom: 5px;
+  color: #666666;
+}
+
+.img#userstories {
+  box-shadow: none;
+}
+
 /************* MEDIA QUERIES *************/
 
 /* Portrait iOS */

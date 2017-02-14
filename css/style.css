@@ -23,7 +23,7 @@ body {
 a {
   font-family: 'brandon-grotesque', Helvetica, sans-serif;
   letter-spacing: 2px;
-  color: #ffffff;
+  color: #84AAC0;
 }
 
 .contain-to-grid {
@@ -135,7 +135,6 @@ h6 {
   font-family: 'brandon-grotesque', sans-serif;
   color: #ffffff;
   text-align: left;
-  font-style: italic;
 }
 
 h6#copyright {
@@ -197,6 +196,10 @@ a#call {
   font-weight: 700;
 }
 
+a#nospacing {
+  letter-spacing: normal;
+}
+
 #featured {
   text-align: center;
   padding-top: 1.25rem;
@@ -248,7 +251,7 @@ a#call {
 .button.small {
   color: #FFFFFF;
   margin-top: 0.4rem;
-  background-color: #B5C064;
+  background-color: #84AAC0;
 }
 
 
@@ -647,5 +650,14 @@ h6#caption {
 
   #photo {
     height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 40.0625em) {
+
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: #84AAC0;
+    background: #84AAC0;
+    color: #ffffff;
   }
 }

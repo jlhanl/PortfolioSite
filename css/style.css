@@ -20,6 +20,12 @@ body {
   color: #777;
 }
 
+a {
+  font-family: 'brandon-grotesque', Helvetica, sans-serif;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
 .contain-to-grid {
   background-color: rgba(255, 255, 255, 0.9);
   height: 45px;
@@ -125,6 +131,13 @@ h5 {
   text-transform: uppercase;
 }
 
+h6 {
+  font-family: 'brandon-grotesque', sans-serif;
+  color: #ffffff;
+  text-align: left;
+  font-style: italic;
+}
+
 h6#copyright {
   font-family: 'brandon-grotesque';
   color: #777;
@@ -145,20 +158,20 @@ p {
 }
 
 .hero-panel {
-  background-image: url('/images/hero-image1.png');
+  background-image: url('/images/palm.jpg');
   background-size: cover;
-  height: 500px;
+  height: 550px;
   background-attachment: fixed;
 }
 
 .headline {
-  text-align: center;
-  padding-top: 6.75rem;
+  text-align: left;
+  padding-top: 6rem;
   padding-bottom: 5%;
 }
 
 #name-headline {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .button {
@@ -170,12 +183,18 @@ p {
   color: #777;
   margin-top: 1.75rem;
   font-style: normal;
+  border-radius: 2px;
 }
 
 .button:hover {
   color: #777;
   background-color: #FFFFFF;
   opacity: 1;
+}
+
+a#call {
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 #featured {

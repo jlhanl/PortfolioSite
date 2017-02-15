@@ -23,7 +23,7 @@ body {
 a {
   font-family: 'brandon-grotesque', Helvetica, sans-serif;
   letter-spacing: 2px;
-  color: #ffffff;
+  color: #84AAC0;
 }
 
 .contain-to-grid {
@@ -78,6 +78,10 @@ a {
 
 .top-bar .toggle-topbar.menu-icon a{
   color: #777;
+}
+
+.top-bar .toggle-topbar.menu-icon a:hover {
+  color: #ffffff;
 }
 
 
@@ -135,7 +139,6 @@ h6 {
   font-family: 'brandon-grotesque', sans-serif;
   color: #ffffff;
   text-align: left;
-  font-style: italic;
 }
 
 h6#copyright {
@@ -197,6 +200,10 @@ a#call {
   font-weight: 700;
 }
 
+a#nospacing {
+  letter-spacing: normal;
+}
+
 #featured {
   text-align: center;
   padding-top: 1.25rem;
@@ -206,7 +213,11 @@ a#call {
 
 .portfolio {
   padding: 6rem 0rem;
-  text-align: center;;
+  text-align: left;
+}
+
+img#biggerimg {
+  max-width: 120%;
 }
 
 #description {
@@ -234,8 +245,8 @@ a#call {
   font-size: 20px;
 }
 
-.dailydot, .blocbox {
-  background-color: rgba(119, 119, 119, 0.1);
+.reflect, .nomcents {
+  background-color: #f9f9f9;
 }
 
 .nomcents a {
@@ -248,7 +259,7 @@ a#call {
 .button.small {
   color: #FFFFFF;
   margin-top: 0.4rem;
-  background-color: #B5C064;
+  background-color: #84AAC0;
 }
 
 
@@ -389,9 +400,10 @@ span {
 #contacthero {
   text-align: center;
   color: #FFFFFF;
-  background-image: url('../images/hero-image1.png');
+  background-image: url('../images/palm.jpg');
   opacity: 0.9;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 #contact-title {
@@ -616,10 +628,10 @@ h6#caption {
 
 @media only screen and (max-width: 736px) {
   .hero-panel {
-    background-image: url('/images/hero-image1.png');
+    background-image: url('/images/palm.jpg');
     background-size: cover;
     height: 500px;
-    background-attachment: scroll;
+    background-attachment: none;
   }
   #photo {
     background-image: url('../images/me-photo.jpg');
@@ -647,5 +659,14 @@ h6#caption {
 
   #photo {
     height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 40.0625em) {
+
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: #84AAC0;
+    background: #84AAC0;
+    color: #ffffff;
   }
 }

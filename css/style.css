@@ -20,6 +20,12 @@ body {
   color: #777;
 }
 
+a {
+  font-family: 'brandon-grotesque', Helvetica, sans-serif;
+  letter-spacing: 2px;
+  color: #84AAC0;
+}
+
 .contain-to-grid {
   background-color: rgba(255, 255, 255, 0.9);
   height: 45px;
@@ -74,6 +80,10 @@ body {
   color: #777;
 }
 
+.top-bar .toggle-topbar.menu-icon a:hover {
+  color: #ffffff;
+}
+
 
 
 /*** Dropdown arrow ***/
@@ -125,6 +135,12 @@ h5 {
   text-transform: uppercase;
 }
 
+h6 {
+  font-family: 'brandon-grotesque', sans-serif;
+  color: #ffffff;
+  text-align: left;
+}
+
 h6#copyright {
   font-family: 'brandon-grotesque';
   color: #777;
@@ -145,20 +161,20 @@ p {
 }
 
 .hero-panel {
-  background-image: url('/images/hero-image1.png');
+  background-image: url('/images/palm.jpg');
   background-size: cover;
-  height: 500px;
+  height: 550px;
   background-attachment: fixed;
 }
 
 .headline {
-  text-align: center;
-  padding-top: 6.75rem;
+  text-align: left;
+  padding-top: 6rem;
   padding-bottom: 5%;
 }
 
 #name-headline {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .button {
@@ -170,12 +186,22 @@ p {
   color: #777;
   margin-top: 1.75rem;
   font-style: normal;
+  border-radius: 2px;
 }
 
 .button:hover {
   color: #777;
   background-color: #FFFFFF;
   opacity: 1;
+}
+
+a#call {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+a#nospacing {
+  letter-spacing: normal;
 }
 
 #featured {
@@ -187,7 +213,11 @@ p {
 
 .portfolio {
   padding: 6rem 0rem;
-  text-align: center;;
+  text-align: left;
+}
+
+img#biggerimg {
+  max-width: 120%;
 }
 
 #description {
@@ -215,8 +245,8 @@ p {
   font-size: 20px;
 }
 
-.dailydot, .blocbox {
-  background-color: rgba(119, 119, 119, 0.1);
+.reflect, .nomcents {
+  background-color: #f9f9f9;
 }
 
 .nomcents a {
@@ -229,7 +259,7 @@ p {
 .button.small {
   color: #FFFFFF;
   margin-top: 0.4rem;
-  background-color: #B5C064;
+  background-color: #84AAC0;
 }
 
 
@@ -370,9 +400,10 @@ span {
 #contacthero {
   text-align: center;
   color: #FFFFFF;
-  background-image: url('../images/hero-image1.png');
+  background-image: url('../images/palm.jpg');
   opacity: 0.9;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 #contact-title {
@@ -546,6 +577,17 @@ h6#caption {
   padding-bottom: 3rem;
 }
 
+/********** OLIVERS APPAREL **************/
+
+.captioned img {
+  margin-bottom: 5px;
+  color: #666666;
+}
+
+.img#userstories {
+  box-shadow: none;
+}
+
 /************* MEDIA QUERIES *************/
 
 /* Portrait iOS */
@@ -586,10 +628,10 @@ h6#caption {
 
 @media only screen and (max-width: 736px) {
   .hero-panel {
-    background-image: url('/images/hero-image1.png');
+    background-image: url('/images/palm.jpg');
     background-size: cover;
     height: 500px;
-    background-attachment: scroll;
+    background-attachment: none;
   }
   #photo {
     background-image: url('../images/me-photo.jpg');
@@ -617,5 +659,14 @@ h6#caption {
 
   #photo {
     height: 30rem;
+  }
+}
+
+@media only screen and (min-width: 40.0625em) {
+
+  .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: #84AAC0;
+    background: #84AAC0;
+    color: #ffffff;
   }
 }

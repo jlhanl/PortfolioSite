@@ -80,6 +80,10 @@ a {
   color: #777;
 }
 
+.top-bar .toggle-topbar.menu-icon a:hover {
+  color: #ffffff;
+}
+
 
 
 /*** Dropdown arrow ***/
@@ -209,7 +213,11 @@ a#nospacing {
 
 .portfolio {
   padding: 6rem 0rem;
-  text-align: center;;
+  text-align: left;
+}
+
+img#biggerimg {
+  max-width: 120%;
 }
 
 #description {
@@ -237,8 +245,8 @@ a#nospacing {
   font-size: 20px;
 }
 
-.dailydot, .blocbox {
-  background-color: rgba(119, 119, 119, 0.1);
+.reflect, .nomcents {
+  background-color: #f9f9f9;
 }
 
 .nomcents a {
@@ -392,9 +400,10 @@ span {
 #contacthero {
   text-align: center;
   color: #FFFFFF;
-  background-image: url('../images/hero-image1.png');
+  background-image: url('../images/palm.jpg');
   opacity: 0.9;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 #contact-title {
@@ -619,10 +628,10 @@ h6#caption {
 
 @media only screen and (max-width: 736px) {
   .hero-panel {
-    background-image: url('/images/hero-image1.png');
+    background-image: url('/images/palm.jpg');
     background-size: cover;
     height: 500px;
-    background-attachment: scroll;
+    background-attachment: none;
   }
   #photo {
     background-image: url('../images/me-photo.jpg');

@@ -178,9 +178,8 @@ p {
 }
 
 span#explore {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   color: #FFFFFF;
-  font-style: normal;
 }
 
 .button {
@@ -611,6 +610,11 @@ h6#caption {
     padding-top: 5.5rem;
   }
 
+  span#explore {
+    font-size: 90%;
+  }
+
+
   
   #description p {
     padding-bottom: 2rem;
@@ -639,6 +643,7 @@ h6#caption {
     height: 500px;
     background-attachment: none;
   }
+
   #photo {
     background-image: url('../images/me-photo.jpg');
     background-position: center center;

@@ -177,6 +177,12 @@ p {
   margin-bottom: 1rem;
 }
 
+span#explore {
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  font-style: normal;
+}
+
 .button {
   font-family: 'brandon-grotesque';
   font-weight: 600;

@@ -160,8 +160,8 @@ p {
   font-size: 20px;
 }
 
-.hero-panel {
-  background-image: url('/images/colorado.jpg');
+#mountainbg {
+  background-image: url('../images/colorado.jpg');
   background-size: cover;
   height: 550px;
   background-attachment: fixed;
@@ -171,6 +171,7 @@ p {
   text-align: left;
   padding-top: 6rem;
   padding-bottom: 5%;
+  z-index: 99;
 }
 
 #name-headline {
